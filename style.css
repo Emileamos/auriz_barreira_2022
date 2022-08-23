@@ -31,9 +31,9 @@ section {
     /*margin: 200px;*/
     padding: 10px;
 }
-mark {
+/*mark {
     background-color: #FCBF00;
-}
+}*/
 
 .bg-light{
     padding: 20px;
@@ -49,7 +49,7 @@ mark {
     display: flex;
     width: 100%;
     max-width:1200px;
-   /* align-items: stretch;*/
+    align-items: stretch;
     margin: auto;
 }
 
@@ -112,6 +112,22 @@ form .input-group button{
     cursor: pointer;
     font-size: 16px;
 }
+.grid-container {
+  display: grid;
+  grid-template-columns: auto auto;
+  background-color: #2196F3;
+  padding: 10px;
+}
+.grid-text {
+  background-color: rgba(255, 255, 255, 0.8);
+  border: 1px solid rgba(0, 0, 0, 0.8);
+  padding: 20px;
+  font-size: 30px;
+  text-align: center;
+  margin: 10px;
+  align-items: stretch;
+}
+
 
 
 
@@ -125,6 +141,11 @@ form .input-group button{
         width: 100%;
     }
 
+}
+@media screen and (max-width: 930px){
+  #grid_container{
+    display: block;
+  }
 }
 
 
@@ -240,4 +261,3 @@ form .input-group button{
         padding: 0;
     }
 } */
-
