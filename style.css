@@ -1,4 +1,134 @@
+
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+}
+
+body{
+    background-image: url(imagens/fundo.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+strong {
+    text-align: center;
+    font-weight: bold;
+    margin: auto;
+}
+
+img {
+    display: flex;
+    margin: auto;
+    padding: 20px;
+}
+section {
+    display: flex;
+    align-items: center;
+    /*margin: 200px;*/
+    padding: 10px;
+}
+mark {
+    background-color: #FCBF00;
+}
+
+.bg-light{
+    padding: 20px;
+
+}
+
+.col{
+    width: 50%;
+}
+
+.container{
+    padding: 10px;
+    display: flex;
+    width: 100%;
+    max-width:1200px;
+   /* align-items: stretch;*/
+    margin: auto;
+}
+
+.form-box{
+    background-color: rgba(255, 255, 255, 0.4);
+    backdrop-filter: blur(40px);
+    padding: 30px 40px;
+    width: 50%;
+    border-radius: 0 20px 20px 0;
+}
+.form-box h2{
+    font-size: 30px;
+}
+.form-box p{
+    font-weight: bold;
+    color: #3D3D3D;
+}
+.form-box p a{
+    color: #FF008A;
+    text-decoration: none;
+}
+.form-box form{
+    margin: 20px 0;
+}
+form .input-group{
+    margin-bottom: 15px;
+}
+form .input-group label{
+    color: #3D3D3D;
+    font-weight: bold;
+    display: block;
+    margin-bottom: 5px;
+}
+form .input-group input{
+    width: 426px;
+    height: 47px;
+    background-color: rgba(255, 255, 255, 0.32);
+    border-radius: 10px;
+    outline: none;
+    border: 2px solid #B5B5B5;
+    padding: 15px;
+    font-size: 15px;
+    color: #616161;
+    transition: all 0.4s ease;
+
+}
+
+form .input-group input:focus{
+    border-color: gold;
+}
+form .input-group button{
+    width: 426px;
+    height: 64px;
+    background: #FCBF00;
+    border-radius: 50px;
+    outline: none;
+    border: none;
+    margin-top: 15px;
+    color: black;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+
+
+@media screen and (max-width:930px){
+    .container{
+        display: block;
+        
+    }
+    
+    .col{
+        width: 100%;
+    }
+
+}
+
+
+/*
 *{
     padding: 0;
     margin: 0;
@@ -15,7 +145,6 @@ body{
     align-items: center;
     justify-content: center;
     padding: 20px;
-    min-height: 100vh;
 }
 .w50{
     width: 50%;
@@ -40,7 +169,7 @@ body{
     background-color: rgba(255, 255, 255, 0.4);
     backdrop-filter: blur(40px);
     padding: 30px 40px;
-    width: 23%;
+    width: 50%;
     border-radius: 0 20px 20px 0;
 }
 .form-box h2{
@@ -82,8 +211,8 @@ form .input-group input:focus{
     border-color: gold;
 }
 form .input-group button{
-    width: 100%;
-    height: 47px;
+    width: 426px;
+    height: 64px;
     background: gold;
     border-radius: 20px;
     outline: none;
@@ -110,4 +239,5 @@ form .input-group button{
         width: 100%;
         padding: 0;
     }
-}
+} */
+
