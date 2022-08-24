@@ -14,10 +14,13 @@ body{
     background-size: cover;
     
 }
-strong {
+strong{
     text-align: center;
     font-weight: bold;
     margin: auto;
+}
+.container_1{
+    text-align: center;
 }
 
 #logo_img{
@@ -25,7 +28,13 @@ strong {
     margin: auto;
     padding: 20px;
 }
-section {
+.social_midia{
+    display: flex;
+    justify-content: center;
+    margin: 20px;
+}
+
+.form_section{
     display: flex;
     align-items: center;
     /*margin: 200px;*/
@@ -52,21 +61,37 @@ section {
     align-items: stretch;
     margin: auto;
 }
-
+.logo_img{
+    display: flex;
+    margin:  auto;
+    padding: 20px;
+    text-align: center;
+}
 .form-box{
     background-color: rgba(255, 255, 255, 0.4);
-    backdrop-filter: blur(40px);
-    padding: 30px 40px;
-    width: 50%;
-    border-radius: 0 20px 20px 0;
+    /*padding: 30px 40px;*/
+    width: 78%;
+    /*border-radius: 0 20px 20px 0;*/
+    border-radius: 10px;
+    border: 1px solid ghostwhite;
 }
+span{
+    margin: 20px;
+    padding: 20px;
+    justify-content: center;
+}
+footer{
+    background-color: #ECECEC;
+}
+/*
 .form-box h2{
     font-size: 30px;
-}
+}*/
+/*
 .form-box p{
     font-weight: bold;
     color: #3D3D3D;
-}
+}*/
 .form-box p a{
     color: #FF008A;
     text-decoration: none;
@@ -117,15 +142,17 @@ form .input-group button{
   display: grid;
   grid-template-columns: auto auto;
   background-color: #FFFFFF;
-  padding: 10px;
+  padding: 100px;
+  column-gap: 20px;
 }
 .grid-text {
   background-color: rgba(255, 255, 255, 0.8);
   border: 1px solid ghostwhite;
-  padding: 30px;
+  border-radius: 10px;
+  padding: 50px;
   font-size: 24px;
   text-align: left;
-  margin: 20px;
+  margin: 10px;
   align-items: stretch;
 }
 
