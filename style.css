@@ -19,9 +19,6 @@ strong{
     font-weight: bold;
     margin: auto;
 }
-.container_1{
-    text-align: center;
-}
 
 #logo_img{
     width: 100%;
@@ -65,7 +62,6 @@ strong{
 .container-fluid{
     max-width: 600px;
     margin: auto;
-    align-items: ;
 }
 #logo_imagem{
     display: flex;
@@ -84,8 +80,7 @@ strong{
 }
 span{
     margin: 20px;
-    padding: 20px;
-    justify-content: center;
+
 }
 footer{
     background-color: #ECECEC;
@@ -113,7 +108,7 @@ form .input-group label{
     color: #3D3D3D;
     font-weight: bold;
     display: block;
-    margin-bottom: 5px;
+    margin-bottom: 9px;
 }
 form .input-group input{
     width: 100%;
@@ -183,7 +178,7 @@ form .input-group button{
     margin: auto;
   }
 }
-@media (max-width: 1200px) { 
+@media (max-width: 1440px) { 
     .grid-text {
     background-color: rgba(255, 255, 255, 0.8);
     border: 1px solid #CCC;
