@@ -60,7 +60,7 @@ strong{
     margin: auto;
 }
 .container-fluid{
-    max-width: 600px;
+    max-width: 1144px;
     margin: auto;
 }
 #logo_imagem{
@@ -78,11 +78,13 @@ strong{
     margin: auto;
     max-width: 420px;
 }
-span{
-    margin: 20px;
-
+#text_inicial{
+    text-align: center;
 }
-footer{
+#text_final{
+    text-align: center;
+}
+#footer{
     background-color: #ECECEC;
 }
 /*
